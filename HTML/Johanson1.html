@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta-charset="utf-8">
+<title>Johanson Onyegbula</title>
+<link rel="stylesheet" type="text/css" href="../CSS/johansono.css">
+</head>
+
+<body>
+<section><article>
+<p>A site to <mark>learn</mark> more about scientific discoveries.<br>
+Modern technology has and is making the world a fast-paced place. 
+One has to be updated with these technological developments in order to updated with modern trends.</p>
+<p>Science is fundamental to man, and technology which is its application is making the world a better place by bringing about new developments each second; 
+we still can't overrule its disadvantages.</p></article>
+<br>
+
+<table>
+<caption>The cities I visited on my Segway'n USA travels</caption>
+<tr>
+<th>City</th><th>Date</th><th>Temp</th><th>Altitude</th><th>Population</th><th>Diner rating</th>
+</tr>
+<tr>
+<td>Walla Walla, WA</td><td class="other">June 15th</td><td class="other">75</td><td class="other">1,204 ft</td>
+<td class="other">29,686</td><td class="other">4/5</td>
+</tr>
+<tr class="cellcolor">
+<td>Magic City, ID</td><td class="other">June 25th</td><td class="other">74</td><td class="other">5,312 ft</td>
+<td class="other">50</td><td class="other">3/5</td>
+</tr>
+<tr>
+<td>Bountiful, UT</td><td class="other">July 10th</td><td class="other">91</td><td class="other">4,226 ft</td>
+<td class="other">41,173</td><td class="other">4/5</td>
+</tr>
+<tr class="cellcolor">
+<td>Last Chance, CO</td><td class="other">July 23rd</td><td class="other">102</td><td class="other">4,780 ft</td>
+<td class="other">265</td><td class="other">3/5</td>
+</tr>
+<tr>
+<td rowspan="2">Truth or Consequences, NM</td><td class="other">August 9th</td><td class="other">93</td><td class="other" rowspan="2">4,242 ft</td>
+<td rowspan="2" class="other">7,289</td><td class="other">5/5</td>
+</tr>
+<tr>
+<td>August 27th</td><td>98</td><td><table><tr><th>Tess</th><td>5/5</td></tr><tr><th>Tony</th><td>4/5</td></tr></table></td>
+</tr>
+<tr class="cellcolor">
+<td>Why, AZ</td><td class="other">August 18th</td><td class="other">104</td><td class="other">860 ft</td>
+<td class="other">480</td><td class="other">3/5</td>
+</tr>
+</table>
+
+<!-- Creates a form here -->
+<form action="www.johansononyegbula.com" method="post">
+<div class="fill"><p>Your current level:<br>
+<select name="level" multiple size="3">
+<option value="100 ">100 level</option><option value="200">200 level</option>
+<option value="300">300 level</option><option value="400">400 level</option>
+<option value="500" selected>500 level</option><option value="600">600 level</option></select></p>
+</div>
+
+<div class="fill"><p><fieldset><legend>Personal details</legend>
+<label class="title">Name:</label><input class="tite" type="text" name="name"><br>
+<label class="title">Email address:</label><input type="email" name="email" class="tite"><br>
+<label class="title">Matriculation number:</label><input type="text" name="matric no" class="tite"><br>
+<label class="title">Department:</label><input type="text" name="department" class="tite"><br>
+<label class="title">Mobile number:</label><input type="tel" name="mobile" placeholder="0813937..." required class="tite"><br>
+<label class="title">Personal website:</label><input type="url" name="website" value="www.johanson.com" class="tite"><br>
+<label class="title">Date of birth:</label><input type="data" name="birthday" class="tite"></fieldset></p>
+</div>
+
+<div class="fill"><p><legend>Are you on a scholarship?</legend><br>
+<!-- Submits multiple selection, remove square brackets for single submission irrespective of multiple selections -->
+<input type="checkbox" name="schp[]" value="yes">Yes</input><br><input type="checkbox" name="schp[]" value="no" checked>No<br>
+<input type="checkbox" name="schp[]" value="more">More than one</input></input>
+<br>Number of coursemates in your level:<br><input type="number" min="10" max="300"></p>
+</div>
+
+<div class="fill"><p>Gender:<br><label><input type="radio" name="sex" value="male">Male</label><br>
+<label><input type="radio" name="sex" value="female">Female</label><br>
+Admission year:<br>20<input type="number" min="03" max="25"><br>
+Ideal sleep time:<br><input type="time" min="00:00" max="23:59" step="3600"><br>
+Age:<br><input type="range" min="0" max="50" step="1"></p>
+</div>
+Favourite colour:<br><input type="color" name="favcol"><br>
+<p>Your comments:<br><textarea name="comments" rows="6" cols="100"></textarea></br>
+Password:<br><input type="password" name="secret"><br>Send picture:<br><input type="file" name="picture"></p></div>
+<div class=""fill"><p><input type="submit" value="Forward"></p></div>
+</form>
+
+</body>
+</html>
