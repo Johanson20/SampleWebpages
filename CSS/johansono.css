@@ -1,9 +1,9 @@
 ﻿body { font-size: 1.1em; background-color: #fff; line-height: 1.4em; word-spacing: 0.25em;}
 
 /*This is for tables*/
-table { margin-left: 20px; margin-right: 20px; border: thin solid black; caption-side: bottom; border-collapse: collapse; }
-td, th { border: thin dotted gray; padding: 5px; text-align: center; }
-caption { font-style: italic; padding-top: 8px; }
+table { margin-left: 2%; margin-right: 2%; border: thin solid black; caption-side: bottom; border-collapse: collapse; }
+td, th { border: thin dotted gray; padding: 0.5%; text-align: center; }
+caption { font-style: italic; padding-top: 0.8%; }
 
 /*classes are styled using dots preceding it*/
 .other { text-align: right; }
@@ -11,24 +11,23 @@ caption { font-style: italic; padding-top: 8px; }
 th { background-color: #c60; }
 tr td table th { background-color: #fff; }
 em, b, i {text-decoration: overline; text-transform: uppercase; letter-spacing: 0.1em;}
-form { display: table; padding: 10px; border: thin dotted #7e7e7e; background-color: #e1ceb8; width: 550px;}
+form { display: table; padding: 1%; border: thin dotted #7e7e7e; background-color: #e1ceb8; width: 45%;}
 .fill { font-weight: bold; }
-.fill p { display: table-cell; vertical-align: top; padding: 3px; }
+.fill p { display: table-cell; vertical-align: top; padding: 0.3%; }
 
 /* .fill p:first-child { text-align: right; } */
-fieldset {width: 450px;}
-.title {float: left; width: 200px;}
-.tite {width: 200px;}
+fieldset {width: 95%;}
+.title, .tite {width: 35%; margin-right: 5%; display: inline-block;}
 
 /* Another comment */
 p {text-align: left;}
 p:first-letter{font-size: 1.5em}
 dt {text-indent: 2em; text-shadow: -.4em .5em 0.15em #b7ac2f;}
-dl {border: 2px outset #8d7; width: 30%; height: 16em;}
+dl {border: 0.2% outset #8d7; width: 30%; height: 16em;}
 
 /* Even more comments */
 #top {background-image: url("../Images/push.jpg");}
-textarea { width: 500px; height: 100px; }
+textarea { width: 50%; height: 10%; }
 a {cursor: pointer; color: blue; text-decoration: none;}
 a:hover{color: yellow; text-decoration: underline;}
 a:visited{color: yblue;}
