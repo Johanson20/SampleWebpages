@@ -1,5 +1,5 @@
 ﻿h3 { color: #c00; }
-#elixirs { border-width: thin; border-style: solid; border-color: #007e7e; width: 200px; padding-left: 20px; padding-right: 20px; padding-bottom: 20px;
+#elixirs { border-width: thin; border-style: solid; border-color: #007e7e; width: 22%; padding-left: 4%; padding-right: 4%; padding-bottom: 3%;
  margin-left: 250px; text-align: center; background-image: ../headfirsthtmlcss/chapter9/lounge-complete/images/cocktail.gif; background-repeat: repeat-x; }
 .artiste { font-weight: bold; }
 .cd { font-style: italic; }

@@ -12,7 +12,9 @@
 <p>Modern technology has and is making the world a fast-paced place. 
 One has to be updated with these technological developments in order to updated with modern trends.</p>
 <p>Science is fundamental to man, and technology which is its application is making the world a better place by bringing about new developments each second; 
-we still can't overrule its disadvantages.</p></article></section>
+we still can't overrule its disadvantages.</p>
+<p>If you're bored, you can always go <a href="index/html">Home</a> or register for <a href="lists.html">Poetry Workshops</a>! Nonetheless, you can always file missing reports <a href="report.html">here</a>.</p>
+</article></section>
 <br>
 
 <table>
@@ -51,11 +53,11 @@ we still can't overrule its disadvantages.</p></article></section>
 
 <!-- Creates a form here -->
 <form action="www.johansononyegbula.com" method="post">
-<div class="fill"><p>Your current level:<br>
+<div class="fill"><label>Your current level:<br>
 <select name="level" multiple size="3">
 <option value="100 ">100 level</option><option value="200">200 level</option>
 <option value="300">300 level</option><option value="400">400 level</option>
-<option value="500" selected>500 level</option><option value="600">600 level</option></select></p>
+<option value="500" selected>500 level</option><option value="600">600 level</option></select></label>
 </div>
 
 <div class="fill"><fieldset><legend>Personal details</legend>
@@ -68,22 +70,23 @@ we still can't overrule its disadvantages.</p></article></section>
 <label class="title">Date of birth: </label><input type="date" name="birthday" class="tite"></fieldset>
 </div>
 
-<div class="fill"><p>Are you on a scholarship?</p><br>
+<div class="fill"><label>Are you on a scholarship?<br/>
 <!-- Submits multiple selection, remove square brackets for single submission irrespective of multiple selections -->
 <input type="checkbox" name="schp[]" value="yes">Yes<br><input type="checkbox" name="schp[]" value="no" checked>No<br>
-<input type="checkbox" name="schp[]" value="more">More than one
-<br><p>Number of coursemates in your level:</p><br><input type="number" min="10" max="300">
+<input type="checkbox" name="schp[]" value="more">More than one</label><br/>
+<br/><label>Number of coursemates in your level:<br><input type="number" min="10" max="300"></label>
 </div>
 
-<div class="fill"><p>Gender:<br><label><input type="radio" name="sex" value="male">Male</label><br>
-<label><input type="radio" name="sex" value="female">Female</label><br>
-Admission year:<br>20 <input type="number" min="03" max="25" placeholder="14"><br>
-Ideal sleep time:<br><input type="time" min="00:00" max="23:59" step="3600"><br>
-Age:<br><input type="range" min="0" max="50" step="1"></p>
-</div>
-Favourite colour:<br><input type="color" name="favcol"><br>
-<p>Your comments:<br><textarea name="comments" rows="6" cols="100"></textarea>
-Password:<br><input type="password" name="secret"><br>Send picture:<br><input type="file" name="picture"></p>
+<div class="fill"><label>Gender:<br><input type="radio" name="sex" value="male">Male</label><br>
+<input type="radio" name="sex" value="female">Female</label><br>
+<br><label>Admission year:<br>20 <input type="number" min="03" max="25" placeholder="14"><label><br>
+<br><label>Ideal sleep time:<br><input type="time" min="00:00" max="23:59" step="3600"></label><br>
+<br><label>Age:<br><input type="range" min="0" max="50" step="1"></label>
+</div><br>
+<label>Favourite colour:<br><input type="color" name="favcol"></label><br>
+<br><label>Your comments:<br><textarea name="comments" rows="6" cols="100"></textarea></label><br>
+<br><label>Password:<br><input type="password" name="secret"></label><br>
+<br><label>Send picture:<br><input type="file" name="picture"></label>
 <div class="fill"><p><input type="submit" value="Forward"></p></div>
 </form>
 

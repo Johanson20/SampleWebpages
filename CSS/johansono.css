@@ -11,13 +11,14 @@ caption { font-style: italic; padding-top: 0.8%; }
 th { background-color: #c60; }
 tr td table th { background-color: #fff; }
 em, b, i {text-decoration: overline; text-transform: uppercase; letter-spacing: 0.1em;}
-form { display: table; padding: 1%; border: thin dotted #7e7e7e; background-color: #e1ceb8; width: 45%;}
-.fill { font-weight: bold; }
-.fill p { display: table-cell; vertical-align: top; padding: 0.3%; }
+form { display: table; padding: 1%; border: thin dotted #7e7e7e; background-color: #e1ceb8; width: 45%; min-width: 400px;}
+.fill { font-weight: bold; width: 95%; margin: 4% auto;}
+.fill p { display: table-cell; vertical-align: top; padding: 0.3%; `}
 
 /* .fill p:first-child { text-align: right; } */
-fieldset {width: 95%;}
-.title, .tite {width: 35%; margin-right: 5%; display: inline-block;}
+fieldset {width: 95%; margin: 4% auto;}
+.title {width: 35%; margin-right: 5%; display: inline-block;}
+.tite {width: 50%; margin-right: 5%; display: inline-block;}
 
 /* Another comment */
 p {text-align: left;}

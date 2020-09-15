@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Testing some Javascript</title>
+<script src="../js/prac1.js"></script>
+<style>
+#another {display: none;}
+</style>
+</head>
+
+<body onload="myFruits()">
+<script>alert("Oops! Your first annoying pop up.")</script>
+<noscript>Your browser doesn't support Javascript or it has been disabled!</noscript>
+<button onclick="addFruit()">Click to add your favourite fruit</button>
+<p id="fruits"></p>
+<button onclick="dayt()">Display Date</button>
+<p id="daytt"></p>
+<br>
+<p>Fill the form below or go <a href="index.html">home</a>.</p>
+<form>
+<label for="name">Name: </label>
+<input type="textfield" name="name" value="Johanson O." required="true"><br>
+<label>Email: <input type="email" id="email1" name="email" placeholder="jojo@yahoo.com" required></label><br>
+<label>Confirm Email: <input type="email" id="email2" name="c_email" required="true" onchange="check()"></label><br>
+<label>Your Password: <input type="password" name="password" required="true"></label><br>
+<label>Birth date: <input type="date" name="birthday"></label><br><hr>
+
+<label for="gender">Gender:</label><br>
+<label><input type="radio" name="gender" value="Male">Male</label><br>
+<label><input type="radio" name="gender" value="Female">Female</label><br>
+<br><label for="niche">Preferred Tech Niche:<br><input type="checkbox" name="niche" value="Data Science">Data Science</label><br> 
+<label><input type="checkbox" name="niche" value="frontend">Front-end development<br>
+<input type="checkbox" name="niche" value="backend">Back-end development<br></label>
+<label><input type="checkbox" name="niche" value="gamedev">Game development</label><br>
+<label><input type="checkbox" name="niche" value="other" onchange="newChange()" id="other">Other</label>
+<span id="another"><label> (Please State): <input id="newtech" type="text" name="new_niche"></label>
+</span><br><hr>
+
+<label>GitHub Profile: <input type="url" name="github"></label><br>
+<label>Phone number: <input type="tel" name="telephone" pattern="[0-9]{11}" placeholder="08139378788"></label><br>
+<label>Favourite Number: <input type="number" name="num"></label><br>
+<label>Favourite Colour: <input type="color" name="color"></label><br>
+<label>Preferred age of marriage: <input type="range" min="16" max="50" step="1"></label><br>
+<br><input type="submit" value="Submit here">
+</form>
+</body>
+</html>
