@@ -1,9 +1,4 @@
-//creates two functions
-
-function mesg(msg)
-{
-	document.getElementById("demo").innerHTML = msg + " Event.";
-}
+//creates functions
 
 function dayt()
 {
@@ -11,7 +6,7 @@ function dayt()
 }
 
 //create a fruits variable
-var fruits = ['Apple', 'Mango', 'Orange', 'Banana'];
+var fruits = ['Apple', ' Mango', ' Orange', ' Banana'];
 
 //Two more functions for playing with arrays
 function myFruits()
@@ -23,7 +18,7 @@ function addFruit()
 {
 	var fruit = prompt('What is your favourite fruit? ');
 	if (fruit.length > 1)
-	{	fruits.push(fruit);
+	{	fruits.push(' ' + fruit);
 		document.getElementById("fruits").innerHTML = fruits;
 	}
 	else {
