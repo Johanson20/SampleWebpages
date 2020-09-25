@@ -1,5 +1,5 @@
 ﻿body { font-size: small; font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.6em; 
-background-image: url("../Images/IMG_20190104_223027.jpg"); background-repeat: repeat-x; background-attachment: scroll;}
+background-image: url("../Images/home.jpg"); background-repeat: repeat-x; background-attachment: scroll;}
 #bebodieh {background-image: url("../Images/cocktail.gif"); background-repeat: repeat-y; font-weight: bold; color: #20ef3f;}
 .adjust {background-color: #8a8b8c; padding: 1% 2%; width: 25%; margin-left: 6%}
 #me {width: 95%;}
@@ -14,8 +14,17 @@ a {color: rgb(004, 034, 035); text-decoration: none; color: #0065ff; font-weight
 .jboy {margin-right: 12%;}
 .dull {background-color: #ddd; color: #ee2210;}
 img.photo {width: 90%;}
-#oga { display: table-cell; background-color: #bfbb40; padding: 10px; width: 25%; margin-right: 5px;}
-#first {display: table-cell; background-color: #00eeee; padding: 12px; vertical-align: top; width: 25%; }
-.second { display: table-cell; background-color: #e09982; padding: 8px; vertical-align: top; width: 25%; }
-#it {color: #08090a; background-color: #bcb0b0; position: absolute; bottom: 120px; right: 30px; font-size: large;
+#oga { display: inline-block; background-color: #bfbb40; padding: 1%; width: 46%; margin: 1%; min-height: 430px;}
+#first {display: inline-block; background-color: #00eeee; padding: 2%; vertical-align: top; width: 44%; margin: 1%; min-height: 430px;}
+.second { display: inline-block; background-color: #e09982; padding: 2%; vertical-align: top; width: 44%; margin: 1%; min-height: 430px;}
+#it {color: #08090a; background-color: #bcb0b0; position: absolute; bottom: 17%; right: 5%; font-size: large;
 padding: 5px; letter-spacing: 0.12em; z-index: 3;}
+
+
+@media only screen and (min-width:1200px) {
+#oga { display: table-cell; padding: 1%; width: 24%; margin-right: auto 1% auto 0;}
+#first {display: table-cell; padding: 2%; width: 25%; margin-right: auto 1% auto 0;}
+.second { display: table-cell; padding: 2%; width: 25%; margin-right: auto 1% auto 0;}
+#it {bottom: 17%; right: 3%; font-size: large; padding: 5px; letter-spacing: 0.12em; z-index: 3;}
+
+}

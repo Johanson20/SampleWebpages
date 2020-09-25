@@ -37,7 +37,7 @@
 
 <br/>
 <form action="https://github.com/Johanson20" method = "post">
-<div><fieldset><legend>Personal details</legend>
+<div class="sect"><fieldset><legend>Personal details</legend>
 <label for="names">Name: </label><input type="text" id="names" value="Johanson O." required><br/>
 <label for="email1">Email: </label><input type="email" id="email1" placeholder="jojo@yahoo.com" required><br/>
 <label for="c_email">Confirm Email: </label><input type="email" id="c_email" required onchange="check()"><br/>
@@ -45,19 +45,20 @@
 <label for="birthday">Birth date: </label><input type="date" id="birthday"></fieldset><br/>
 
 Preferred Tech Niche:<br/>
-<input class="norm" type="checkbox" id="dsc" value="Data Science"><label class="nor" for="dsc">Data Science</label><br/>
-<input class="norm" type="checkbox" id="front" value="frontend"><label class="nor" for="front">Front-end development</label><br/>
-<input class="norm" type="checkbox" id="back" value="backend"><label class="nor" for="back">Back-end development</label><br/>
-<input class="norm" type="checkbox" id="game" value="gamedev"><label class="nor" for="game">Game development</label><br/>
-<input class="norm" type="checkbox" value="other" onchange="newChange()" id="other"><label class="nor" for="other">Other</label><br/>
+<input class="norm" type="checkbox" name="tech" id="dsc" value="Data Science"><label class="nor" for="dsc">Data Science</label><br/>
+<input class="norm" type="checkbox" name="tech" id="front" value="frontend"><label class="nor" for="front">Front-end development</label><br/>
+<input class="norm" type="checkbox" name="tech" id="back" value="backend"><label class="nor" for="back">Back-end development</label><br/>
+<input class="norm" type="checkbox" name="tech" id="game" value="gamedev"><label class="nor" for="game">Game development</label><br/>
+<input class="norm" type="checkbox" name="tech" value="other" onchange="newChange()" id="other"><label class="nor" for="other">Other</label><br/>
 <span id="another">(Please State): <input id="newtech" type="text" name="new_niche"></span>
 </div>
 
-<div>
+<div class="sect">
 Gender:<br/>
-<input class="norm" type="radio" id="male" value="Male"><label class="nor" for="male">Male</label><br/>
-<input class="norm" type="radio" id="female" value="Female"><label class="nor" for="female">Female</label>
-<br/>
+<input class="norm" type="radio" name="sex" id="male" value="Male"><label class="nor" for="male">Male</label><br/>
+<input class="norm" type="radio" name="sex" id="female" value="Female"><label class="nor" for="female">Female</label><br/>
+<input class="norm" type="radio" name="sex" id="genderless" value="None"><label class="nor" for="genderless">Prefer not to say</label><br/>
+
 <br/><label for="github">GitHub Profile: </label><input type="url" id="github"><br/>
 <label for="telephone">Phone number: </label><input type="tel" id="telephone" pattern="[0-9]{11}" placeholder="08139378788"><br/>
 <label for="num">Favourite Number: </label><input type="number" id="num"><br/>
@@ -68,6 +69,6 @@ Gender:<br/>
 </form>
 </div>
 
-<footer><a href="practice1.html" title="Author's bio" id="authorbio">About Author</a><a href="https://twitter.com/JohansonO" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a><a href="https://web.facebook.com/johanson.onyegbula" title="Facebook"><i class="fa fa-facebook fa-2x"></i></a><a href="https://www.linkedin.com/in/johanson-onyegbula-6484bb76/" title="LinkedIn"><i class="fa fa-linkedin fa-2x"></i></a><a href="https://www.instagram.com/onyegbulajohanson/" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a></footer>
+<footer><a href="tony.html" title="Author's bio" id="authorbio">About Author</a><a href="https://twitter.com/JohansonO" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a><a href="https://web.facebook.com/johanson.onyegbula" title="Facebook"><i class="fa fa-facebook fa-2x"></i></a><a href="https://www.linkedin.com/in/johanson-onyegbula-6484bb76/" title="LinkedIn"><i class="fa fa-linkedin fa-2x"></i></a><a href="https://www.instagram.com/onyegbulajohanson/" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a></footer>
 </body>
 </html>
