@@ -1,5 +1,5 @@
 ﻿body { font-size: small; font-family: Verdana, Helvetica, Arial, sans-serif; line-height: 1.6em; 
-background-image: url("../Images/home.jpg"); background-repeat: repeat-x; background-attachment: scroll;}
+background-image: url("../Images/home.JPG"); background-repeat: repeat-x; background-attachment: scroll;}
 #bebodieh {background-image: url("../Images/cocktail.gif"); background-repeat: repeat-y; font-weight: bold; color: #20ef3f;}
 .adjust {background-color: #8a8b8c; padding: 1% 2%; width: 25%; margin-left: 6%}
 #me {width: 95%;}
