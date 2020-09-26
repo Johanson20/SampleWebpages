@@ -5,7 +5,7 @@ body {display: flex; min-height: 100vh; flex-direction: column; padding: auto 1%
 
 footer {background-color: #00f1f0; font-weight: bold; text-align: center; height: 8%;}
 		
-footer a {display: inline-block; width: 9%; margin: auto 2%;}
+footer a {display: inline-block; width: 9%; margin: auto 2%; color: #0000ff;}
 
 #authorbio {width: 28%;}
 
@@ -13,6 +13,8 @@ div.sect {display: inline-block; font-weight: bold;
 		width: 95%; height: 35%; margin: 2%; text-align: center;
 		border: 2px solid #000; padding: 3%;
 		transition: 0.5s ease; background-color: #d2d231;}
+
+.sect > a {color: #0e19b9;}
 
 div.sect:focus {background-color: #fd53ec;}
 

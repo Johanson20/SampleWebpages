@@ -30,7 +30,7 @@ function addFruit()
 function check()
 {
 	var email1 = document.getElementById('email1');
-	var email2 = document.getElementById('email2');
+	var email2 = document.getElementById('c_email');
 	if (email1.value != email2.value)
 		alert("Both email addresses must match!");
 }
