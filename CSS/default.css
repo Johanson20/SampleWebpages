@@ -1,7 +1,6 @@
 
-body {display: flex; min-height: 100vh; flex-direction: column; padding: auto 1%; margin: 1%;}
+body {min-height: 100vh; flex-direction: column; padding: auto 1%; margin: 1%;}
 
-#container {flex: 1;}
 
 footer {background-color: #00f1f0; font-weight: bold; text-align: center; height: 8%;}
 		

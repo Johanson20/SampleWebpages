@@ -29,7 +29,7 @@ button {width: 36%; text-align: center; background-color: #00bbff; height: 2em; 
 body {margin: 2%; background-color: #bbb;}
 
 
-@media screen and (min-width:730px) {
+@media only screen and (min-width:730px) {
 	body {margin: 3%;}
 		
 	.sect1, .sect3 {display: inline-block; width: 45%; float: left;}
