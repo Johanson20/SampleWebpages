@@ -11,9 +11,9 @@ nav a {width: 22%; background-color: #fff; margin: auto 1%; text-align: center; 
 
 h2 {background: #00a5ee; color: #000;}
 
-.sect1, .sect2 {width: 95%; display: inline-block; margin: 1% 2%; height: 4em; padding-top: 2em; text-align: center; border: 3px solid #fa0; }
+.sect1, .sect2 {border: 3px solid #fa0; text-align: center; padding: 5%;}
 .sect2 label {width: 30%; display: inline-block;}
-.sect3, .sect4 {width: 95%; display: inline-block; margin: 1% 2%; height: 4em; padding-top: 1em; text-align: center; border: 3px solid #fa0; }
+.sect3, .sect4 {text-align: center; border: 3px solid #fa0; padding: 5%;}
 
 details {font-style: italic;}
 
@@ -28,11 +28,3 @@ button {width: 36%; text-align: center; background-color: #00bbff; height: 2em; 
 
 body {margin: 2%; background-color: #bbb;}
 
-
-@media screen and (min-width:730px) {
-	body {margin: 3%;}
-		
-	.sect1, .sect3 {display: inline-block; width: 45%; float: left;}
-	.sect2, .sect4 {display: inline-block; width: 45%; float: right;}
-
-}

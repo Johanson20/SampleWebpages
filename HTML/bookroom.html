@@ -3,6 +3,7 @@
 <head>
 <title>Book a Room</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="../CSS/bootstrap-grid.min.css">
 <link rel="stylesheet" type="text/css" href="../CSS/rooms.css">
 </head>
 
@@ -10,7 +11,7 @@
 
 <header><h1>Unicorn Island 7-star Hotels</h1>
 <nav>
-<a href="bookroom.html" id="active" title="Website 1">Flights</a>
+<a href="bookroom.html" id="active" title="Search for flights">Flights</a>
 <a href="http://www.two.com" title="Website 2">Airports</a>
 <a href="http://www.three.com" title="Website 3">Bookings</a>
 <a href="https://www.github.com/Johanson20" title="My GitHub profile">GitHub</a>
@@ -25,22 +26,31 @@ The special packages include:<ol>
 <li>Free 6 hours accommodation stay, after the first day.</li>
 </ol></details></section><br/>
 
+<div class="container">
 <h2>Section</h2>
+<div class="row">
+<div class="col-md-6">
 <p class="sect1"><i class="fa fa-search"></i> Around current location<br/><input type="text" name="location" placeholder="West Lafayette, Indiana..."></p>
-<p class="sect2">I'm travelling for: <br/>
+</div>
+<div class="col-md-6"><p class="sect2">I'm travelling for: <br/>
 <label><input type="radio" name="reason" value="work">Work</label>
 <label><input type="radio" name="reason" value="fam">Family</label>
 <label><input type="radio" name="reason" value="rest">Recreation</label>
-</p>
-<p class="sect3">Check in date:<br/><input type="date" name="enter_date"></p>
-<p class="sect4">Check out date:<br/><input type="date" name="end_date"></p><br/>
-<button>Search</button>
+</p></div>
+<div class="col-md-6"><p class="sect3">Check in date:<br/><input type="date" name="enter_date"></p></div>
+<div class="col-md-6"><p class="sect4">Check out date:<br/><input type="date" name="end_date"></p></div><br/>
+<button class="col-xs-3">Search</button>
+</div><br/>
 
 <section><h2>Why make us your top choice?</h2>
+<div class="row">
+<div class="col-md-6">
 <details><summary>Comfort</summary>
-We offer a cozy jaccuzzi for warm baths, a swimming pool in your balcony with the ocean view just beside your bathroom. All these without contaminating the ocean. And best of all, it won't hurt your pocket so much.</details><br/>
-<details><summary>Location</summary>
-Situated at the heart of the Royco city, we are 30 minutes drive away from the farthest airport in the country. Also, traffic-free motorable roads connect us with major train stations, seaports and airports.</details></section><br/>
+We offer a cozy jaccuzzi for warm baths, a swimming pool in your balcony with the ocean view just beside your bathroom. All these without contaminating the ocean. And best of all, it won't hurt your pocket so much.</details></div><br/><br/>
+<div class="col-md-6"><details><summary>Location</summary>
+Situated at the heart of the Royco city, we are 30 minutes drive away from the farthest airport in the country. Also, traffic-free motorable roads connect us with major train stations, seaports and airports.</details></div>
+</div></section>
+</div>
 
 <br/>
 <footer id="foot"><a href="https://twitter.com/JohansonO" target="_blank" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
