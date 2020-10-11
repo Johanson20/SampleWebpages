@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>Photo Albums</title>
+<link rel="stylesheet" type="text/css" href="../CSS/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../CSS/styles.css">
+</head>
+
+<body>
+<nav class="navbar navbar-expand-md navbar-default">
+<div class="container-fluid">
+<!-- Collapsed navbar -->
+<div class="navbar-header">
+<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main_navbar" aria-expanded="false">Menu</button>
+</div>
+
+<!-- Un-collapsed navbar -->
+<div class="collapse navbar-collapse" id="main_navbar">
+<ul class="nav navbar-nav">
+<li class="nav-item"><a class="nav-link" href="index2.html">Home</a></li>
+<li class="nav-item active"><a class="nav-link" href="album.html">Albums</a></li>
+<li class="nav-item"><a class="nav-link" href="photos.html">All Photos</a></li>
+</ul>
+</div>
+</div>
+</nav>
+
+<div class="container">
+<h1>Here are my albums</h1>
+<!-- Start breadcrumbs -->
+<ol class="breadcrumb">
+<li class="breadcrumb-item"><a href="index2.html">Home</a></li>
+<li class="breadcrumb-item active"><a href="album.html">Album</a></li>
+</ol>
+<!-- /End breadcrumbs -->
+<p>Click on any of these photo albums to see what it displays.</p>
+<a class="col-md-6 col-lg-4" href="photo1.html"><img class="album_cover" src="../Images/img_8.jpg" alt="Classical car" title="Vehicles and electronics album"/></a>
+<a class="col-md-6 col-lg-4" href="photo2.html"><img class="album_cover" title = "Nature's scenery album" src="../Images/img2.jpg" alt="Narrow road on a hill surrounded by nature"/></a>
+<a class="col-md-6 col-lg-4" href="photo3.html"><img class="album_cover" src="../Images/img4.jpg" title="Food album" alt="Yummy cake"/></a>
+</div>
+
+<script src="../js/jquery-3.5.1.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+</body>
+</html>

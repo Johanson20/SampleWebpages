@@ -1,0 +1,14 @@
+.album_cover {
+	border: 5px solid purple;
+	max-height: 400px;
+	margin: 3% auto;
+}
+
+.photo_list {
+	width: 100%;
+	padding: 5px;
+}
+
+.single_photo {
+	width: 75%;
+}
