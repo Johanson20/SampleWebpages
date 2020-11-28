@@ -12,7 +12,7 @@ nav a {width: 30%; font-size: 90%; background-color: #fff; margin: 1%; text-alig
 h2 {background: #00a5ee; color: #000;}
 
 .sect1, .sect2 {width: 95%; display: inline-block; margin: 1% 2%; height: 4em; padding-top: 2em; text-align: center; border: 3px solid #fa0; }
-.sect2 label {width: 30%; display: inline-block;}
+.sect2 label {width: 32%; display: inline-block;}
 .sect3, .sect4 {width: 95%; display: inline-block; margin: 1% 2%; height: 4em; padding-top: 1em; text-align: center; border: 3px solid #fa0; }
 
 details {font-style: italic;}
