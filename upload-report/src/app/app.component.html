@@ -1,0 +1,5 @@
+<angular-file-uploader [config]="afuConfig">
+</angular-file-uploader><br>
+<table><tr><th>File Index</th><th>Date</th><th></th></tr>
+<tr *ngFor="let item of arr"><td>{{afuConfig.uploadAPI.index}}</td><td>{{afuConfig.uploadAPI.date}}</td></tr>
+</table>
