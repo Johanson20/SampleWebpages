@@ -1,5 +1,35 @@
-<angular-file-uploader [config]="afuConfig">
-</angular-file-uploader><br>
-<table><tr><th>File Index</th><th>Date</th><th></th></tr>
-<tr *ngFor="let item of arr"><td>{{afuConfig.uploadAPI.index}}</td><td>{{afuConfig.uploadAPI.date}}</td></tr>
-</table>
+<h2>Upload Report</h2>
+<input type="file" (change)="onFileSelected($event)" />
+<button type="button" (click)="onUpload()">Upload</button><br><br>
+<h3>Display Uploaded Files</h3><button>View Reports</button>
+
+
+<!-- <div class="mainContainer">
+    <div class="content">
+        <div class="header">
+            <h1>Angular File Upload</h1>
+        </div>
+        <div class="row margin25">
+
+            <div class="col-md-4">
+
+            </div>
+            <div class="col-md-4">
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text upload" id="btnUpload">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                        <form action="/api/upload" method="post" enctype="multipart/form-data">
+                            <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+                        </form>
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+            </div>
+        </div>
+    </div>
+</div> -->
